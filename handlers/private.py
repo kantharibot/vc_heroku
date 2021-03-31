@@ -11,6 +11,7 @@ async def start(_, message: Message):
         f"""I am **{bn}** !!
 
 COMMANDS
+ /song - 🔎 Search and dowload audio files from YouTube.
  /play - ▶️ Plays the replied audio file or YouTube video through link.
  /pause - ⏸️ Pause Voice Chat Music.
  /resume - ⏏️ Resume Voice Chat Music.
