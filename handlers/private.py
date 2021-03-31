@@ -11,20 +11,20 @@ async def start(_, message: Message):
         f"""I am **{bn}** !!
 
 COMMANDS
- /play - Plays the replied audio file or YouTube video through link.
- /pause - Pause Voice Chat Music.
- /resume - Resume Voice Chat Music.
- /skip - Skips the current Music Playing In Voice Chat.
- /stop - Clears The Queue as well as ends Voice Chat Music.
+ /play - ▶️ Plays the replied audio file or YouTube video through link.
+ /pause - ⏸️ Pause Voice Chat Music.
+ /resume - ⏏️ Resume Voice Chat Music.
+ /skip - ↪️ Skips the current Music Playing In Voice Chat.
+ /stop - ⏹️ Clears The Queue as well as ends Voice Chat Music.
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/zyrus-basi/vc_heroku"
+                        "CHANNEL", url="https://t.me/hqmp3songs"
                     ),
                     InlineKeyboardButton(
-                        "GROUP", url="https://t.me/uniedbotsupport"
+                        "GROUP", url="https://t.me/tgsongz1"
                     )
                 ]
             ]
